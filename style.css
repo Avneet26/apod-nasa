@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Oxygen';
+}
+.bg-dark{
+  background: #ffffff; 
+}
+.container-fluid{
+  width: 1500px;
+  padding: 0 100px;
+}
+.header a{
+  color: #0b3d91;
+  position: absolute;
+  margin-top: 30px;
+  font-size: 50px;
+  transition: 0.3s color ease-out;
+}
+.header a:hover{
+  color: #fc3d21;
+  text-decoration: none;
+}
+.photo{
+  
+  height: 600px;
+}
+.photo-cont{
+  height: 100vh;
+}
+#phototitle{
+  width: 100%;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+#photodesc{
+  background: #0b3d91;
+  color: #fff;
+  height: 600px;
+  width: 400px;
+  margin: 0px;
+  padding: 10px;
+}
